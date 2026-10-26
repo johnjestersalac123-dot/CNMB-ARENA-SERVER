@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jester:logo",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "north": "textures/entity/jester_logo_north",
+        "east": "textures/entity/jester_logo_east",
+        "south": "textures/entity/jester_logo_south",
+        "west": "textures/entity/jester_logo_west"
+      },
+      "geometry": { "default": "geometry.jester_logo" },
+      "render_controllers": ["controller.render.jester_logo"]
+    }
+  }
+}

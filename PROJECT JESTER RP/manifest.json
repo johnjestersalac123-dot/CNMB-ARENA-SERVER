@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "JESTER Resource Pack",
+    "description": "Floating text label entity for the CNMP project",
+    "uuid": "bead16e1-8ea0-4a6e-8d28-5ec1af29c777",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "JESTER resources",
+      "uuid": "c518bf18-4f84-4e39-8c85-41dd0832efd8",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}

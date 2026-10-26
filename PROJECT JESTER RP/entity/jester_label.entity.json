@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jester:label",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/jester_label" },
+      "geometry": { "default": "geometry.jester_label" },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

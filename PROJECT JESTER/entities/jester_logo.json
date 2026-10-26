@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "jester:logo",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "jester:side_north": { "minecraft:variant": { "value": 0 } },
+      "jester:side_east": { "minecraft:variant": { "value": 1 } },
+      "jester:side_south": { "minecraft:variant": { "value": 2 } },
+      "jester:side_west": { "minecraft:variant": { "value": 3 } }
+    },
+    "events": {
+      "jester:side_north": { "add": { "component_groups": ["jester:side_north"] } },
+      "jester:side_east": { "add": { "component_groups": ["jester:side_east"] } },
+      "jester:side_south": { "add": { "component_groups": ["jester:side_south"] } },
+      "jester:side_west": { "add": { "component_groups": ["jester:side_west"] } }
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["jester_logo", "inanimate"] },
+      "minecraft:collision_box": { "width": 128, "height": 64 },
+      "minecraft:physics": { "has_gravity": false, "has_collision": false },
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:knockback_resistance": { "value": 1.0 },
+      "minecraft:damage_sensor": { "triggers": { "cause": "all", "deals_damage": "no" } },
+      "minecraft:persistent": {}
+    }
+  }
+}

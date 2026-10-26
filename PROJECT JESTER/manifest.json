@@ -1,0 +1,27 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Project Jester",
+    "description": "My first pack",
+    "uuid": "b7e4c2a1-93d5-4f60-8a2e-5c1d7e9f3b48",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2f9a6d34-7c1b-4e85-9d03-a4b8c6e1f752",
+      "version": [1, 0, 1]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d18c5b7e-40a9-4b36-b6f2-3e7a9c2d8e15",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 1]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.15.0" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.jester_logo": {
+      "arrays": {
+        "textures": {
+          "Array.logo": ["Texture.north", "Texture.east", "Texture.south", "Texture.west"]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["Array.logo[query.variant]"]
+    }
+  }
+}
